@@ -24,12 +24,12 @@ bearer example : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjF9.9inWfP4x1
 
 3.get data product [GET]
 localhost:8002/api/all/product
-attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di delete
+attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di tampilkan
 
 
 4.localhost:8002/api/product/new
 insert data product [POST]
-attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di delete
+attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di simpan
 
 {
 "product_name" : "Macbook Pro 2020",
@@ -40,7 +40,7 @@ attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak
 }
 5.update data product [PATCH]
 localhost:8002/api/product/update?id=8
-attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di delete
+attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di update
 
 {
 "product_name" : "apple",
@@ -55,7 +55,7 @@ attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak
 
 7.detail data product [GET]
 localhost:8002/api/product/detail
-attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di delete
+attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di tampilkan
 
 Writed ,22 agustus 2021
 Developer ,Andre ,Jakarta-Indonesia
