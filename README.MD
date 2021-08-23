@@ -54,7 +54,7 @@ localhost:8002/api/product/delete?id=8
 attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di delete
 
 7.detail data product [GET]
-localhost:8002/api/product/detail
+localhost:8002/api/product/detail?id=8
 attach bearer / bawa token ,klw tidak akan ada pesan perlu token ,dan data tidak akan di tampilkan
 
 Writed ,22 agustus 2021
